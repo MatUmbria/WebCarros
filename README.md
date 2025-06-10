@@ -1,3 +1,7 @@
+✅ README.md
+markdown
+Copiar
+Editar
 # WebCarros
 
 **WebCarros** is a web platform for car advertisements, developed as part of a fullstack development course. It allows users to post, browse, and manage car listings with a modern and responsive interface.
@@ -6,41 +10,89 @@
 
 ## 🚀 Features
 
-- 🔍 Advanced filtering and sorting of car listings  
-- 🔐 User authentication with Firebase  
-- ✅ Robust form handling and validation  
-- 🖼️ Image carousels for vehicle galleries  
-- 📱 Fully responsive with Tailwind CSS  
-- ⚛️ Modern React-based SPA using Vite + TypeScript  
+- 🔍 Filtering and sorting of car listings  
+- 🔐 Firebase authentication  
+- ✅ Form validation with Zod  
+- 🖼️ Image gallery using Swiper  
+- ⚛️ Built with React, Vite, and TypeScript  
+- 📱 Fully responsive with Tailwind CSS
 
 ---
 
-## 📦 Tech Stack
+## 🧰 Tech Stack
 
-- **React** 19  
-- **TypeScript**  
-- **Vite**  
-- **Tailwind CSS**  
-- **Firebase**  
-- **React Hook Form + Zod**  
-- **Swiper**  
-- **React Router DOM**
+- **React 19** – UI library  
+- **TypeScript** – Static typing  
+- **Vite** – Frontend build tool  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **Firebase** – Backend services (auth, DB)  
+- **React Hook Form + Zod** – Form management and validation  
+- **React Router DOM** – SPA routing  
+- **Swiper** – Image slider
 
 ---
 
-## 📥 Installation
+## 📦 Dependencies
+
+### Core Libraries
+- `react`, `react-dom` – UI rendering
+- `react-router-dom` – Routing system
+- `typescript` – Type checking
+
+### Styling
+- `tailwindcss`, `@tailwindcss/vite` – CSS styling with Vite integration
+
+### Forms & Validation
+- `react-hook-form` – Handle form state
+- `zod` – Schema validation
+- `@hookform/resolvers` – Integration between form and Zod
+
+### Firebase
+- `firebase` – Authentication and Firestore database
+
+### Utilities
+- `uuid` – Unique ID generation
+- `localforage` – Offline local storage
+- `sort-by`, `match-sorter` – Sorting and searching
+- `rod` – Small utility library
+
+### UI
+- `swiper` – Carousels
+- `react-hot-toast` – Toast notifications
+- `react-icons` – Icon components
+
+---
+
+## 📁 Project Structure
+
+src/
+├── components/ # Reusable UI elements
+├── hooks/ # Custom hooks
+├── pages/ # Route-based pages
+├── styles/ # Tailwind config & base styles
+├── utils/ # Helper functions
+├── firebase.ts # Firebase config
+└── main.tsx # App entry point
+
+yaml
+Copiar
+Editar
+
+---
+
+## 📥 Getting Started
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/MatUmbria/webcarros.git
 cd webcarros
-2. Install all dependencies
+2. Install dependencies
 bash
 Copiar
 Editar
 npm install
-3. Run the app in development mode
+3. Run in development mode
 bash
 Copiar
 Editar
@@ -55,74 +107,19 @@ bash
 Copiar
 Editar
 npm run preview
-📚 Dependencies Overview
-🔧 Core Frameworks
-react / react-dom – UI library for building interfaces
+📑 Available Scripts
+npm run dev – Start development server
 
-react-router-dom – Handles client-side routing
+npm run build – Build project for production
 
-vite – Fast development server and bundler
+npm run preview – Preview production build
 
-typescript – Static typing for better code safety
-
-🎨 Styling
-tailwindcss – Utility-first CSS framework
-
-@tailwindcss/vite – Vite plugin for Tailwind CSS
-
-✅ Forms and Validation
-react-hook-form – Efficient form handling
-
-@hookform/resolvers – Integrates Zod with react-hook-form
-
-zod – Schema validation for inputs
-
-🔐 Backend and Storage
-firebase – Backend services (authentication, Firestore, etc.)
-
-📦 Utilities
-uuid – Generate unique IDs
-
-localforage – Client-side storage abstraction
-
-sort-by – Utility for sorting arrays of objects
-
-match-sorter – Smart search/filtering
-
-rod – Utility library for DOM/state
-
-🖼 UI & Feedback
-swiper – Carousel/slider for car images
-
-react-hot-toast – Toast notifications
-
-react-icons – Icon packs as React components
-
-📂 Project Structure
-graphql
-Copiar
-Editar
-src/
-├── components/       # Reusable UI components
-├── hooks/            # Custom React hooks
-├── pages/            # Page components (routes)
-├── styles/           # Tailwind CSS and global styles
-├── utils/            # Utility functions
-├── main.tsx          # App entry point
-└── firebase.ts       # Firebase config and setup
-✅ Scripts
-npm run dev – Start the development server
-
-npm run build – Create optimized production build
-
-npm run preview – Preview the production version
-
-npm run lint – Run ESLint to check code quality
+npm run lint – Lint the project with ESLint
 
 📝 License
 This project was created for educational purposes and is not intended for commercial use.
 
 📬 Contact
-Feel free to reach out if you have any questions or suggestions!
 📧 Email: mateusumbria@gmail.com
-🔗 GitHub: MatUmbria
+
+🧑‍💻 GitHub: MatUmbria
