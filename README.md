@@ -1,6 +1,6 @@
 # WebCarros
 
-**WebCarros** is a web platform for car advertisements, developed as part of a fullstack development course. It allows users to post, browse, and manage car listings with a modern and responsive interface.
+**WebCarros** is a web platform for car advertisements. It allows users to post, browse, and manage car listings with a modern and responsive interface.
 
 ---
 
